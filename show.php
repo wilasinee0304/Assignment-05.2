@@ -20,11 +20,7 @@ while($row = mysqli_fetch_array($result)) {
   echo "<td>" .$row["Middle_Name"] .  "</td> ";
   echo "<td>" .$row["suffix"] .  "</td> ";
 }
-
 echo "</table>";
-//5. close connection
-mysqli_close($con);
-
 ?>
 <body>
 <li><a href="index.html" target="_self"> ย้อนกลับ </a></li>
