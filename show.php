@@ -1,5 +1,4 @@
 
-<meta charset="UTF-8">
 <?php
 //1. เชื่อมต่อ database: 
 include('dbconnect.php');  //ไฟล์เชื่อมต่อกับ database ที่เราได้สร้างไว้ก่อนหน้าน้ี
